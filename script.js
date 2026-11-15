@@ -11,7 +11,7 @@ function setMusicLabel() {
 }
 
 async function startMusic() {
-  weddingSong.volume = 0.45;
+  weddingSong.volume = 0.3;
   try {
     await weddingSong.play();
     musicPlaying = true;
